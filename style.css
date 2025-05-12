@@ -1,0 +1,544 @@
+
+
+
+/*HEADER AND FOOTER AND OVERLAY*/
+
+/* NAVBAR */
+.navimg{
+    width: 150px;
+}
+/* NAVBAR */
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d29952;
+    padding: 20px;
+    margin: -10px;
+}
+
+#navbar a {
+    padding: 20px;
+    text-decoration: none;
+    color: #0e0d0e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+.dropbtn {
+    background-color: #d29952;
+    color: #0e0d0e;
+    padding: 20px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0e0d0e;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d29952;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #0e0d0e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* BODY HOME PAGE */
+
+
+body {
+   
+    background-image: url("./images/france-flag-std.jpg");
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+  
+.barimg.Home {
+    width: 500px;
+    border: 4px solid black; 
+      padding: 4px;            
+      display: inline-block; 
+     
+    
+    }
+
+  
+H1.Home {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size:10cap;
+    font-weight: normal;  
+  }
+
+  .Home strong {
+    font-weight: bold;  
+  }
+   
+
+H2.Home {
+    text-align: center;
+    
+    
+  }
+
+  H2.HomeMap {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 900px; 
+    margin: 0 auto;    
+    word-wrap: break-word; 
+    
+    
+    
+  }
+H2.HomeMap img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    ;
+   
+  } 
+
+
+
+
+p.Home { 
+    font-family: 'Parisienne', cursive;
+    font-size: large;
+    font-size:4cap;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 1000px; 
+    margin: 0 auto;    
+    word-wrap: break-word;
+
+}
+
+
+
+/* BODY About us Page */
+.barimg.About {
+    width: 500px;
+    border: 4px solid black; 
+      padding: 4px;            
+      display: inline-block; 
+     
+    
+    }
+
+  
+H1.About {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size:10cap;
+}
+
+
+H2.About {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1px;
+    border-radius: 1px;
+    max-width: 500px; 
+    margin: 0 auto;    
+    word-wrap: break-word;
+  }
+
+
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+       
+  }
+  th, td {
+    border: 1px solid #0E0D0D;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    
+  }
+  th {
+    background-color: #D29952;
+  }
+ 
+
+/* BODY Contact us Page */
+.barimg.Contact {
+    width: 500px;
+    border: 4px solid black; 
+      padding: 4px;            
+      display: inline-block; 
+     
+    
+    }
+
+  
+H1.Contact {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size:10cap;
+}
+H2.Contact {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1px;
+    border-radius: 1px;
+    max-width: 500px; 
+    margin: 0 auto;    
+    word-wrap: break-word;
+  }
+
+ 
+
+
+
+
+    
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    text-align: center;
+  }
+  
+    .contact-form button {
+        display: block;
+        margin: 20px auto 0 auto;
+        padding: 10px 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+  
+  
+  .contact-form button:hover {
+    background-color: #d29952;
+  }
+/* BODY Drinks Menu Page */
+
+
+  
+
+H1.Menu {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size:10cap;
+}
+
+
+ 
+
+
+
+p.Menu { 
+    font-family: 'Parisienne', cursive;
+    font-size: large;
+    font-size:4cap;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1px;
+    border-radius: 1px;
+    max-width: 500px; 
+    margin: 0 auto;    
+    word-wrap: break-word;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  flex: 0 1 calc(33.333% - 20px); 
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.2); /* Optional: light background for separation */
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px; 
+    margin: 0 auto;    
+    word-wrap: break-word;
+}
+
+.menu-container > .menu:nth-child(n+4) {
+  flex: 0 1 calc(50% - 20px); 
+}
+  
+  .menu img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+   
+  }
+  
+  .product-name,
+  .product-price {
+    font-size:large;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1px;
+    border-radius: 1px;
+  }
+
+
+
+  /* FOOTER */
+  .footer__container {
+    background-color: #D29952;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    
+   
+  }
+  
+
+  
+  
+  .footer__links {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .footer__link--wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  
+  .footer__links--items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 0px;
+    box-sizing: border-box;
+  }
+  
+  .footer__link--items a {
+    color: #0E0D0D;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .footer__link--items a:hover {
+    color: #ffffff;
+    transition: 0.3s ease-out;
+  }
+
+
+  .container {
+    width: 90%; /* instead of 1200px */
+    max-width: 1200px;
+    margin: auto;
+  }
+
+.Footimg {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+/* MEDIA QUERIES */
+
+/* Medium Devices (Tablets, 768px and down) */
+@media (max-width: 768px) {
+  .navimg {
+    width: 100px;
+  }
+
+  #navbar a,
+  .dropbtn {
+    font-size: large;
+    padding: 10px;
+  }
+
+  .barimg.Home,
+  .barimg.About,
+  .barimg.Contact {
+    width: 300px;
+  }
+
+  H1.Home,
+  H1.About,
+  H1.Contact,
+  H1.Menu {
+    font-size: 6cap;
+  }
+
+  p.Home,
+  p.Menu,
+  H2.HomeMap,
+  H2.About,
+  H2.Contact {
+    font-size: 3cap;
+    padding: 5px;
+  }
+
+  .menu {
+    flex: 0 1 100%;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer__links--items {
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+/* Small Devices (Phones, 480px and down) */
+@media (max-width: 480px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  #navbar a,
+  .dropbtn {
+    padding: 10px 0;
+    font-size: medium;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+  }
+
+  .barimg.Home,
+  .barimg.About,
+  .barimg.Contact {
+    width: 250px;
+  }
+
+  H1.Home,
+  H1.About,
+  H1.Contact,
+  H1.Menu {
+    font-size: 4cap;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu img {
+    height: 150px;
+  }
+
+  .Home img {
+    height: 150px ;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: small;
+  }
+
+  .Footimg {
+    width: 100px;
+    padding: 10px;
+  }
+}
